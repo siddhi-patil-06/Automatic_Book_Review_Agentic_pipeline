@@ -10,12 +10,12 @@ A locally executable, modular book processing pipeline that:
 
 ---
 
-### ##  Demo
+###  Demo
  [Watch Demo](https://drive.google.com/file/d/1DI2eMp8xOh0m-vu4wUQHgFmgXJjzThXE/view?usp=sharing)
 
 ---
 
-### ##  Features
+###   Features
 
 - ✅ Chapter scraping through Playwright + BeautifulSoup
 - ✅ Sentence rewriting based on rules (simplification, synonym substitution, adverb elimination)
@@ -30,26 +30,35 @@ A locally executable, modular book processing pipeline that:
 ##  Project Structure
 
 ```
+
 auto_book_pub/
-```
 ├── main.py                 # CLI controller for scraping, pipeline, EDA, voice
 ├── scraper.py              # Web scraping logic
 ├── agentic_pipeline.py     # Full MCTS reward-based agentic pipeline
 ├── eda.py                  # Exploratory Data Analysis for text quality
 ├── voice/
-│   ├── voice_input.py      # Speech-to-text
-│   └── audio_utils.py      # Text-to-speech
-├── rules/
-│   └── rewrite_rules.py    # Rule-based sentence rewriting mechanisms
-├── utils/
-│   └── reward.py           # MCTSの_reward scoring function
-├── output/
-│   ├── chapter_1.txt       # Raw scraped chapter
-│   ├── final_output.txt    # 最終的な選択したrewrite
-│   └── eda_report.txt      #生成されたEDAリポート
+│   ├── voice_input.py      # Speech-to-text functionality
+│   └── voice_output.py      # Text-to-speech functionality
+├── agents/
+│   └── write_rules.py    # Rule-based sentence rewriting methods
+├── rl/
+│   ├── integrate_rl.py 
+│   └── reward_mcts.py           # Reward scoring function used in MCTS
+├──version_exports/
+│   ├── chapter_1_final.json       # Raw scraped chapter
+│   ├── chapter_1_reviewer.json
+│   ├── chapter_1_rL_final.json
+│   ├── chapter_1_writer.json    # Final selected rewrite
+│   └── versions.json      # Generated EDA report
 ├── human_edits/
-│   └── feedback.json       # Reward shaping human feedback
-└── requirements.txt        # Python requirements
+│   └── feedback.json
+├──chapter_1_variants.txt
+├──chapter_1.png
+├──chapter_1.txt
+├── eda_pos_tags.png
+├── eda_sentence_lengths.png
+├── eda_word_frequencies.png   # Human feedback for reward shaping
+└── requirements.txt        # Python dependencies
 ```
 
 ---
@@ -70,7 +79,7 @@ python main.py
 
 ---
 
-## ???? Pipeline Stages
+##  Pipeline Stages
 
 ### 1. Scraping
 - Source: Wikisource
@@ -135,7 +144,7 @@ python main.py
 
 ---
 
-## ???? Requirements
+##  Requirements
 
 ```txt
 playwright
@@ -159,8 +168,8 @@ nltk
 
 ##Author
 
-- **Name**: Your Name  
-- **Email**: you@example.com  
-- **Submission Date**: July 19, 2025  
+- **Name**:Siddhi Patil 
+- **Email**: siddhipatil64@gmail.com 
+   
 
 ---
