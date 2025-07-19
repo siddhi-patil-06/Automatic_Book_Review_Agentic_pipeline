@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Logs and caches
+*.log
+*.sqlite3
+.mypy_cache/
+.pytest_cache/
+coverage.*
+htmlcov/
+
+# Build and dist folders
+build/
+dist/
+*.egg-info/

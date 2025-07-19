@@ -1,0 +1,9 @@
+{
+  "id": "chapter_1_reviewer",
+  "metadata": {
+    "step": "reviewer",
+    "agent": "human_pipeline",
+    "timestamp": "2025-07-18T21:53:07.856581"
+  },
+  "content": "- Avoid long run-on sentences.\n- Keep a consistent narrative tone.\n- Use simpler transitions between scenes.\n- Watch for repetitive phrasing."
+}

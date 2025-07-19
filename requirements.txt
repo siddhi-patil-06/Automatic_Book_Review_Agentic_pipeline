@@ -1,0 +1,11 @@
+requests
+playwright
+beautifulsoup4
+textstat
+pyttsx3
+SpeechRecognition
+chromadb
+pyaudio; platform_system == "Windows"
+transformers
+sentence-transformers
+language-tool-python
