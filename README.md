@@ -133,12 +133,12 @@ python main.py
 ##  CLI Options
 
 ```
-???? Automated Book Publication Workflow - CLI
+ Automated Book Publication Workflow - CLI
 
-1. ???? Scrape Chapter from Wikisource
-2. ???? Run Full Agentic Pipeline
-3. ???? Perform EDA on Chapter
-4. ???? Test Voice Input
+1.  Scrape Chapter from Wikisource
+2.  Run Full Agentic Pipeline
+3.  Perform EDA on Chapter
+4. Test Voice Input
 5. ❌ Exit
 ```
 
@@ -166,7 +166,7 @@ nltk
 
 ---
 
-##Author
+## Author
 
 - **Name**:Siddhi Patil 
 - **Email**: siddhipatil64@gmail.com 
